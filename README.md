@@ -1,5 +1,5 @@
 # Quantification of tissue velocity gradient for tracked cell
-Tested on MATLAB R2020a
+Tested on ![MATLAB](https://img.shields.io/badge/MATLAB-R2020a-blue.svg)
 
 ## Input Data:
 - **handCorrection.tif/.png**
@@ -15,7 +15,7 @@ Tested on MATLAB R2020a
 
 
 ## Execution
-Run the script calculate_velocity_gradient.m to begin the calculation.
+Run the script [`calculate_velocity_gradient.m`](src/calculate_velocity_gradient.m) to begin the calculation.
 
 
 ## Output Data
