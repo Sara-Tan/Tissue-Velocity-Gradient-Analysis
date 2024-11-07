@@ -3,12 +3,12 @@ function calculate_velocity_gradient(working_dir)
 %
 %
 % Input Data:
-% 	- handCorrection.tif/.png     : A segmented mask from the first time point, generated using Tissue Analyzer.
-% 	                              : Used to extract cell height and width information for grid partitioning.
+%   - handCorrection.tif/.png     : A segmented mask from the first time point, generated using Tissue Analyzer.
+%                                 : Used to extract cell height and width information for grid partitioning.
 %   - centroid_data.mat           : Contains a variable named centroids, which holds the coordinates for the centroids of all tracked cells across all time points.
 %                                   Size of centroids: (number of cells) x (number of time points) x 2
-% 	                                    - centroids(i_cell, j_time, 1) for x-coordinate
-% 	                                    - centroids(i_cell, j_time, 2) for y-coordinate
+%                                       - centroids(i_cell, j_time, 1) for x-coordinate
+%                                       - centroids(i_cell, j_time, 2) for y-coordinate
 % Ensure that all input files are located in the same directory.
 % 
 % Execution:
